@@ -1,0 +1,175 @@
+     <HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>KUMAR LUCKY</h1>
+    <p class="tagline">Aspiring Web Developer | Creative Thinker</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="lucky photo.jpg" alt="Your Photo" class="profile-pic"/>
+    <p> Hello! I’m a passionate web developer with strong skills in HTML, CSS, JavaScript, and a solid foundation in C and Python.  
+    I’m currently pursuing my B.Tech and have a keen interest in both front-end and back-end development.  
+    I enjoy building clean, responsive websites and applications that solve real-world problemsX.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+      <li>C </li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="project1.jpg" alt="Project 1"/>
+      <h3>Project Title 1</h3>
+      <p>Brief description of the project and its purpose.</p>
+    </div>
+    <div class="project">
+      <img src="project2.jpg" alt="Project 2"/>
+      <h3>Project Title 2</h3>
+      <p>Another project description goes here.</p>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>Download My Resume (PDF)</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: luckykumar84965@gmail.com</p>
+    <p>Phone: +91-8318911297</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 kumar lucky</p>
+  </footer>
+
+</body>
+</html>
+
+
+
+                        <CSS>
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 30px;
+  background: #333;
+  color: white;
+}
+.tagline {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+/* About */
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+  border: 3px solid #333;
+}
+
+/* Skills */
+#skills ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#skills li {
+  background: #333;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+/* Projects */
+.project {
+  margin: 20px 0;
+  text-align: center;
+}
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.project h3 {
+  margin: 10px 0;
+}
+
+/* Resume Link */
+#resume a {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Contact */
+#contact p {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background: #222;
+  color: white;
+  border-radius: 5px;
+}
